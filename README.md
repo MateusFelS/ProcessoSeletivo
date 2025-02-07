@@ -22,8 +22,10 @@ Os testes foram realizados no site [Automation Practice](http://www.automationpr
 ✅ **Cadastro sem preencher campos obrigatórios** → O sistema exibe uma mensagem de erro informando os campos ausentes.  
 ✅ **Senha fraca** → Se a senha for muito curta, o sistema exibe um erro informando que ela é inválida.  
 
-🔹 **Resultado:** Todos os testes foram executados com sucesso.  
+🔹 **Resultado:** Todos os testes foram executados com sucesso.
+
 ![image](https://github.com/user-attachments/assets/05b38acc-c1c5-4a97-8297-72972c2809a7)
+
 ---
 
 ### 🔗 Testes de API (Postman)  
