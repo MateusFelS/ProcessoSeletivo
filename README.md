@@ -53,5 +53,4 @@ Os testes foram realizados na API pública [JSONPlaceholder](https://jsonplaceho
 - **Última Amostra:** 390ms  
 - **Média:** 231ms  
 - **Desvio Padrão:** 106ms  
-
 - **Resultado:** O tempo médio aumentou no segundo cenário, indicando que a API pode sofrer degradação de desempenho sob carga.
