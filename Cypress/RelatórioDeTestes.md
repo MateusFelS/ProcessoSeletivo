@@ -1,4 +1,4 @@
-# 📌 Relatório de Testes - Formulário de Cadastro (Cypress)
+# Relatório de Testes - Formulário de Cadastro (Cypress)
 
 ## Descrição  
 Este documento apresenta os resultados dos testes automatizados executados no formulário de cadastro utilizando **Cypress**.  
