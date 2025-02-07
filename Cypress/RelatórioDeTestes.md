@@ -22,7 +22,7 @@ Este documento apresenta os resultados dos testes automatizados executados no fo
 ---
 
 ### 3️⃣ Senha fraca  
-**Descrição:** Inserir uma senha fraca (exemplo: `"12345"`) e tentar cadastrar.  
+**Descrição:** Inserir uma senha fraca (exemplo: `"123"`) e tentar cadastrar.  
 **Resultado esperado:** O sistema deve exibir uma mensagem de erro informando que a senha é fraca.  
 **Resultado obtido:** ✅ **Teste aprovado** – O sistema rejeitou a senha e mostrou a validação corretamente.  
 
