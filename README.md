@@ -21,7 +21,6 @@ Os testes foram realizados no site [Automation Practice](http://www.automationpr
 - **Cadastro bem-sucedido** → O usuário preenche os dados corretamente e cria a conta com sucesso.  
 - **Cadastro sem preencher campos obrigatórios** → O sistema exibe uma mensagem de erro informando os campos ausentes.  
 - **Senha fraca** → Se a senha for muito curta, o sistema exibe um erro informando que ela é inválida.  
-
 - **Resultado:** Todos os testes foram executados com sucesso.
 
 ![image](https://github.com/user-attachments/assets/05b38acc-c1c5-4a97-8297-72972c2809a7)
@@ -35,7 +34,6 @@ Os testes foram realizados na API pública [JSONPlaceholder](https://jsonplaceho
 - `POST /users` → Simulação de erro **500** ao criar usuário  
 - `GET /users` → Retorno **200** com a lista de usuários  
 - `POST /comments` → Criação de comentário retorna **201**, porém permite JSONs incompletos ou vazios  
-
 - **Resultado:** Os testes passaram, mas o endpoint `/comments` permite criar posts vazios, o que pode ser um problema.
 
 ---
