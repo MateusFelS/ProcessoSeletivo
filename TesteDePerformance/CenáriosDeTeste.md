@@ -18,20 +18,22 @@ Avaliar o tempo de resposta da API ao listar usuários com 100 requisições sim
 
 ---
 
-## 📌 Cenário 2: Teste de Carga no POST /comments
+## 📌 Cenário 2: Teste de Carga no POST /posts
 
 ### 🎯 **Objetivo**
-Verificar como a API se comporta ao receber 200 requisições simultâneas para criação de comentários.
+Verificar como a API se comporta ao receber 200 requisições simultâneas para criação de posts.
 
 ### 🔧 **Configuração**
-- **Endpoint:** `POST /comments`
+- **Endpoint:** `POST /posts`
 - **Número de Threads:** 200
 - **Tempo de Ramp-up:** 20 segundos
 - **Duração:** 2 minutos
 - **Corpo da Requisição:** 
-  ```json
+
+```json
   {
-    "name": "Teste de Comentário",
-    "email": "teste@email.com",
-    "body": "Este é um comentário de teste."
+    "title": "Teste JMeter",
+    "body": "Esse é um teste de performance com JMeter",
+    "userId": 1
   }
+```
