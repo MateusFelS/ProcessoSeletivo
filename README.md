@@ -45,7 +45,7 @@ Os testes foram realizados na API pública [JSONPlaceholder](https://jsonplaceho
 - **Última Amostra:** 50ms  
 - **Média:** 72ms  
 - **Desvio Padrão:** 89ms  
-
+- **Resultado:** O tempo médio de resposta foi rápido e aceitável.
 #### **Cenário 2:**  
 - **Número de Amostras:** 200  
 - **Última Amostra:** 390ms  
