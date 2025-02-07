@@ -29,4 +29,4 @@ Este documento apresenta os resultados dos testes automatizados executados no fo
 ---
 
 ## 📊 Conclusão  
-Todos os cenários de teste foram executados com sucesso e os resultados foram **conformes com as expectativas**. O sistema validou corretamente os campos obrigatórios, a força da senha e a confirmação de e-mail.  
+Todos os cenários de teste foram executados com sucesso e os resultados foram **conformes com as expectativas**. O sistema validou corretamente os campos obrigatórios e a força da senha.  
